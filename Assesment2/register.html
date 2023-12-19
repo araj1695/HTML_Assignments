@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        form{
+            display: flex;
+            justify-content: center;
+        }
+        table td{
+            text-align: left;
+            /* width: 150px; */
+        }
+      form label {
+        border: 10ps solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="header" style="text-align: center">
+      <header>
+        <h1>ACE Academy</h1>
+        <h3>Training Tech News | Freshers Guide</h3>
+        <p>
+          Empowering young developers to level up their skills through training
+          in software development technologies
+        </p>
+      </header>
+      <hr />
+    </section>
+
+    <section class="form" style="text-align: center">
+      <h1>Registration Form</h1>
+      <form action="">
+        <table>
+          <div class="name">
+            <tr>
+              <td>
+                <span><label for="fname">Name:</label></span>
+              </td>
+              <td>
+                <span
+                  ><input type="text" id="fname" name="fname" value=""
+                /></span>
+              </td>
+            </tr>
+          </div>
+
+          <tr>
+            <div class="age">
+                <td><span><label for="fname">Age:</label></span></td>
+                <td><span><input type="number" id="fname" name="fname" value=""
+                    /></span></td>
+              </div>
+          </tr>
+
+          <tr>
+            <div class="gender">
+                <td><span><label for="fname">Gender:</label></span></td>
+                <td>
+                    <span>
+                        <input type="radio" id="html" name="fav_language" value="HTML" />
+                          <label for="html">Male</label>
+                        <input type="radio" id="html" name="fav_language" value="HTML" />
+                          <label for="html">Female</label>
+                      </span>
+                </td>
+              </div>
+          </tr>
+
+          <tr>
+            <div class="Email">
+                <td><span><label for="fname">Email:</label></span></td>
+                <td><span
+                    ><input type="email" id="fname" name="fname" value=""
+                  /></span></td>
+              </div>
+          </tr>
+
+          <tr>
+            <div class="course">
+                <td><span><label for="fname">Select a Course:</label></span></td>
+                <td>
+                    <span>
+                        <select name="course" id="cource">
+                          <option value="Frontend">Frontend</option>
+                          <option value="Backend">Backend</option>
+                          <option value="Database">Database</option>
+                        </select>
+                      </span>
+                </td>
+              </div>
+          </tr>
+
+          <tr>
+            <div class="resume">
+                <td><span><label for="fname">Upload your resume:</label></span></td>
+                <td><span><input type="file" id="fname" name="fname"
+                    /></span></td>
+              </div>
+          </tr>
+
+          <tr>
+            <div class="button">
+                <td><span><input type="reset" /></span></td>
+                <td><span><input type="submit" id="fname" name="fname" /></span></td>
+              </div>
+          </tr>
+
+        </table>
+      </form>
+      <hr />
+    </section>
+
+    <section class="footer">
+      <footer style="text-align: center">
+        <span><a href="./index.html">Home</a> | </span><a href="www.instagram.com" target="_blank">Instagram</a
+        ><span></span> |
+        <span><a href="www.youtube.com" target="_blank">Youtube</a></span>
+      </footer>
+    </section>
+  </body>
+</html>
